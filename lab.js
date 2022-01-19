@@ -8,9 +8,21 @@
 
 //CODE HERE
 
+let lovesCode = true
+
+// console.log(lovesCode)
+
+/*if (lovesCode = true){
+  console.log("I love to code!")
+}
+
+if (lovesCode = false){
+  console.log("Coding has its challenges.")
+} */
+
 // For problems 2-3 use the following lines of code:
-var amysAge = 29
-var brittanisAge = 34
+var amysAge = 31
+var brittanisAge = 36
 var amysBirthYear = 1991
 var brittanisBirthYear = 1986
 
@@ -22,6 +34,18 @@ var brittanisBirthYear = 1986
 
 //CODE HERE
 
+/* if ( brittanisAge > amysAge){
+  console.log('Brittany is older.')
+}
+
+if(amysAge > brittanisAge){
+  console.log ('Amy is older.')
+}
+
+if (brittanisAge === amysAge){
+  console.log('Brittany and Amy are the same age.')
+} */
+
 
 ////////// PROBLEM 3 //////////
 
@@ -30,6 +54,12 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
+/* if (brittanisAge == amysAge){
+  console.log('Amy & Brittani were born in the same year')
+}
+if (brittanisAge != amysAge){
+  console.log('Amy & Brittani were not born in the same year')
+} */
 
 
 ////////// PROBLEM 4 //////////
@@ -43,6 +73,27 @@ let rain = true
 */
 
 //CODE HERE
+
+if (temperature > 80 && rain == true){
+  console.log('Wear a t-shirt and take an umbrella.')
+}
+
+if ( temperature < 80 && temperature > 60 && rain == true){
+  console.log('Wear a rainjacket.')
+}
+
+if (temperature < 60){
+  console.log('Wear a jacket and take an umbrella.')
+}
+
+if (temperature > 80 && temperature < 90 && rain == false){
+  console.log('Wear a t-shirt and shorts')
+}
+
+if (temperature > 90 && rain == false){
+  console.log('Wear a swimsuit and take a lake day!')
+}
+
 
 
 ////////// PROBLEM 5 //////////
