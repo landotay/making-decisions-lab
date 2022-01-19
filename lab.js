@@ -8,15 +8,19 @@
 
 //CODE HERE
 
-let lovesCode = true
+/* let lovesCode = true
 
 // console.log(lovesCode)
 
-/*if (lovesCode = true){
+if (lovesCode === true) {
   console.log("I love to code!")
-}
+}else{
+  console.log("Coding has its challenges.")
+} */
 
-if (lovesCode = false){
+
+
+/*if (lovesCode = false){
   console.log("Coding has its challenges.")
 } */
 
@@ -37,12 +41,10 @@ var brittanisBirthYear = 1986
 /* if ( brittanisAge > amysAge){
   console.log('Brittany is older.')
 }
-
-if(amysAge > brittanisAge){
+else if(amysAge > brittanisAge){
   console.log ('Amy is older.')
 }
-
-if (brittanisAge === amysAge){
+else if (brittanisAge === amysAge){
   console.log('Brittany and Amy are the same age.')
 } */
 
@@ -54,17 +56,18 @@ if (brittanisAge === amysAge){
 */
 
 //CODE HERE
-/* if (brittanisAge == amysAge){
+
+/* if (brittanisBirthYear === amysBirthYear){
   console.log('Amy & Brittani were born in the same year')
 }
-if (brittanisAge != amysAge){
+else {
   console.log('Amy & Brittani were not born in the same year')
-} */
-
+} 
+*/
 
 ////////// PROBLEM 4 //////////
 
-let temperature = 55
+let temperature = 70
 let rain = true
 
 /*
@@ -74,25 +77,21 @@ let rain = true
 
 //CODE HERE
 
-if (temperature > 80 && rain == true){
-  console.log('Wear a t-shirt and take an umbrella.')
-}
-
-if ( temperature < 80 && temperature > 60 && rain == true){
-  console.log('Wear a rainjacket.')
-}
-
-if (temperature < 60){
-  console.log('Wear a jacket and take an umbrella.')
-}
-
-if (temperature > 80 && temperature < 90 && rain == false){
-  console.log('Wear a t-shirt and shorts')
-}
-
-if (temperature > 90 && rain == false){
-  console.log('Wear a swimsuit and take a lake day!')
-}
+// if (temperature > 80 && rain == true){
+//   console.log('Wear a t-shirt and take an umbrella.')
+// }
+// else if ( temperature < 80 && temperature > 60 && rain === true){
+//   console.log('Wear a rainjacket.')
+// }
+// else if (temperature <= 60){
+//   console.log('Wear a jacket and take an umbrella.')
+// }
+// else if (temperature >= 80 && temperature <= 90 && rain !== true){
+//   console.log('Wear a t-shirt and shorts')
+// }
+// else if (temperature >= 90 && rain !== true){
+//   console.log('Wear a swimsuit and take a lake day!')
+// } 
 
 
 
@@ -103,6 +102,9 @@ if (temperature > 90 && rain == false){
 */
 
 //CODE HERE
+// for (let i = 0; i < 10; i++){
+//   console.log("hello")
+// }
 
 
 ////////// PROBLEM 6 //////////
@@ -112,7 +114,8 @@ if (temperature > 90 && rain == false){
 */
 
 //CODE HERE
-
+// for(let i = 0; i < 10; i++)
+// console.log(i + 1)
 
 ////////// PROBLEM 7 //////////
 
@@ -121,6 +124,9 @@ if (temperature > 90 && rain == false){
 */
 
 //CODE HERE
+
+for(let i = 10; i > -1; i--)
+console.log(i)
 
 let score = 0
 let passingScore = 7
